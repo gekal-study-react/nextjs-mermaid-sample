@@ -15,7 +15,7 @@ const App = () => {
   return (
       <div>
         <h1>Mermaid Flowchart</h1>
-        <MermaidRenderer chart={mermaidChart} />
+        <MermaidRenderer text={mermaidChart} />
       </div>
   );
 };
